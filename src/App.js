@@ -1,10 +1,12 @@
-
 import './App.css';
+import Banner from './components/banner/Banner';
+import Navbar from './components/NavBar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-     <h1>netflix clone </h1>
+    <div className="">
+     <Navbar/>
+     <Banner/>
     </div>
   );
 }
