@@ -16,12 +16,21 @@
 .poster{
     margin: 0.9em 0.1em;
     padding: 3px;
-    max-height: 16em;
-   cursor: pointer;
-   border-radius: 15px;
-  
-   transition: all .2s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+    
+    transition: all .2s ease-in-out;
 }
 .poster:hover{
     transform: scale(1.1);
+}
+.normalposter{
+    max-height: 14em;
+}
+
+.smallposter{
+max-height: 8em;
+}
+.movies-title{
+    margin-left: 1em;
 }

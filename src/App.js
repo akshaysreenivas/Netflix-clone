@@ -1,14 +1,16 @@
 import './App.css';
 import Banner from './components/banner/Banner';
 import Navbar from './components/NavBar/Navbar';
-import Rowpost from './rowpost/Rowpost';
+import Rowpost from './components/rowpost/Rowpost';
+import { Action, Originals } from './url/Urls';
 
 function App() {
   return (
     <div className="">
      <Navbar/>
      <Banner/>
-     <Rowpost/>
+     <Rowpost url={Originals} title="Netflix Originals"  />
+     <Rowpost url={Action} title="Action" isSmall />
     </div>
   );
 }
